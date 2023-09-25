@@ -41,6 +41,12 @@ def get_chunks(raw_data):
     chunks = text_splitter.split_text(raw_data)
     return chunks
 
+# Convert chunks to embeddings and create a vector store
+def get_vectorstore(chunks):
+    embeddings = OpenAIEmbeddings()
+    vectorstore = FAISS.from_texts(texts=chunks, embedding=embeddings)
+    return vectorstore
+
 # ... (other functions remain the same)
 
 def main():

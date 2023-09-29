@@ -35,10 +35,6 @@ streamlit run app.py
 
 Please note that the Ayurvedic Doctor Bot is an informational tool and should not be considered a substitute for professional medical advice. It is always recommended to consult with a qualified healthcare professional or an Ayurvedic practitioner for personalized medical advice and treatment.
 
-## Authors
-
-[@tknishh](https://github.com/tknishh)
-
 ## Contribute
 
 Contributions to the Ayurvedic Doctor Bot project are always welcome. If you would like to contribute, please follow these steps:
@@ -61,3 +57,7 @@ git push origin feature/your-feature
 4. Open a pull request in the main repository, explaining your changes and their purpose.
 
 Thank you for considering contributing to the Ayurvedic Doctor Bot project!
+
+## Authors
+
+[@tknishh](https://github.com/tknishh)

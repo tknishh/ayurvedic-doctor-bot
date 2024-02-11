@@ -24,7 +24,12 @@ git clone https://github.com/your-username/ayurvedic-doctor-bot.git
 pip install -r requirements.txt
 ```
 
-3. Run Streamlit App
+3. Add .env file in main directory and assign your open-ai Api key in variable OPENAI_API_KEY
+```
+.env
+```
+
+4. Run Streamlit App
 ```
 streamlit run app.py
 ```
